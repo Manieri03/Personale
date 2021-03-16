@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InserimentoPersonale", "InserimentoPersonale\InserimentoPersonale.csproj", "{FE5F6E64-2C8C-4D26-999A-2CC018738E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5F6E64-2C8C-4D26-999A-2CC018738E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5F6E64-2C8C-4D26-999A-2CC018738E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5F6E64-2C8C-4D26-999A-2CC018738E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5F6E64-2C8C-4D26-999A-2CC018738E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9B2FE5-511F-48EB-8F2B-455425D4C400}
+	EndGlobalSection
+EndGlobal
