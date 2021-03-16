@@ -29,7 +29,7 @@
         </StackPanel>
         
         <StackPanel Grid.Column="0" Grid.Row="2" HorizontalAlignment="right">
-            <Label Padding="0,0,35,0" Content="Nome"></Label>
+            <Label Padding="0,0,35,0" Content="Nome"></Label> 
         </StackPanel>
         
         <StackPanel Grid.Column="0" Grid.Row="3" HorizontalAlignment="right">
