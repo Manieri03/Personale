@@ -17,11 +17,18 @@ namespace InserimentoPersonale
     /// <summary>
     /// Logica di interazione per Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Aziendale : Window
     {
-        public Window1()
+        public Aziendale(PersonaleAziendale pa)
         {
             InitializeComponent();
+            this.pa = pa;
+
         }
+
+        private string[] qualifiche = new string[] { "Dirigente", "Quadro", "Amministrativo", "Operaio" };
+
+        private PersonaleAziendale pa;
+        
     }
 }

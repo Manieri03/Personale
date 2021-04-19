@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Costanti.cs" />
     <Compile Include="FormAziendale.xaml.cs">
       <DependentUpon>FormAziendale.xaml</DependentUpon>
     </Compile>
@@ -83,6 +84,8 @@
     <Compile Include="MostraFile.xaml.cs">
       <DependentUpon>MostraFile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Persona.cs" />
+    <Compile Include="PersonaleAziendale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
