@@ -102,7 +102,7 @@ namespace InserimentoPersonale
 
         private void BtnPulisci_Click(object sender, RoutedEventArgs e)
         {
-            txtFis.Clear();
+            txtFis.Clear(); 
             txtNome.Clear();
             txtCognome.Clear();
             cmbTipo.SelectedIndex = -1;
