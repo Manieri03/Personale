@@ -17,7 +17,7 @@ namespace InserimentoPersonale
         {
             CodiceFiscale = codice;
             Nome = nome;
-            Cognome = cognome;
+            Cognome = cognome; 
 
         }
 
