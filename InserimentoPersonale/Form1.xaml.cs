@@ -50,7 +50,7 @@ namespace InserimentoPersonale
                         if (codicifiscali.Contains(txtFis.Text))
                         {
                             PersonaleAziendale pa = new PersonaleAziendale(txtNome.Text, txtCognome.Text, txtFis.Text, cmbTipo.SelectedItem.ToString());
-                            Aziendale formAziendale = new Aziendale(pa);
+                            FormAziendale formAziendale = new FormAziendale(pa);
                             formAziendale.ShowDialog();
                             codicifiscali.Add(pa.CodiceFiscale);
                         }

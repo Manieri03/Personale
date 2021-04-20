@@ -71,11 +71,11 @@
       <DependentUpon>Form1.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="FormAziendale.xaml">
+    <Page Include="MostraFile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MostraFile.xaml">
+    <Page Include="FormAziendale.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

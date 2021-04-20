@@ -15,20 +15,40 @@ using System.Windows.Shapes;
 namespace InserimentoPersonale
 {
     /// <summary>
-    /// Logica di interazione per Window1.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Aziendale : Window
+    public partial class FormAziendale : Window
     {
-        public Aziendale(PersonaleAziendale pa)
+        private string[] qualifiche = new string[] { "Dirigente", "Quadro", "Amministrativo", "Operaio" };
+        private PersonaleAziendale pa;
+        public FormAziendale(PersonaleAziendale pa)
         {
-            InitializeComponent();
             this.pa = pa;
+            InitializeComponent();
 
         }
 
-        private string[] qualifiche = new string[] { "Dirigente", "Quadro", "Amministrativo", "Operaio" };
+        private void cmbQualifica_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (string s in qualifiche)
+            { 
+                cmbQualifica.Items.Add(s);
+            }
+        }
 
-        private PersonaleAziendale pa;
-        
+        private void btnInserisci_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnInserimento_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMostraFile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
