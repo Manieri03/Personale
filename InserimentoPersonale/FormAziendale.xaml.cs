@@ -32,7 +32,7 @@ namespace InserimentoPersonale
         {
             foreach (string s in qualifiche)
             { 
-                cmbQualifica.Items.Add(s);
+                cmbQualifica.Items.Add(s); 
             }
         }
 
