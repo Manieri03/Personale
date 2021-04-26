@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibreriaPersonale;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -61,7 +62,7 @@ namespace InserimentoPersonale
                     }
                     else
                     {
-                        MessageBox.Show("Attenzione", "Non sono stati immessik tutti i dati", MessageBoxButton.OK, MessageBoxImage.Error);
+                        MessageBox.Show("Attenzione", "Non sono stati immessi tutti i dati", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                     break;
                 case 1:

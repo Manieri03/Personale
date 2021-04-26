@@ -55,7 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Costanti.cs" />
     <Compile Include="FormAziendale.xaml.cs">
       <DependentUpon>FormAziendale.xaml</DependentUpon>
     </Compile>
@@ -84,8 +83,6 @@
     <Compile Include="MostraFile.xaml.cs">
       <DependentUpon>MostraFile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Persona.cs" />
-    <Compile Include="PersonaleAziendale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -113,6 +110,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaPersonale\LibreriaPersonale.csproj">
+      <Project>{1d9f66eb-7702-418e-8b01-fda46dc570f7}</Project>
+      <Name>LibreriaPersonale</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

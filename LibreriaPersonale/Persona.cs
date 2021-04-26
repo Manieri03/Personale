@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace InserimentoPersonale
+namespace LibreriaPersonale
 {
     public abstract class Persona
     {
@@ -17,7 +15,7 @@ namespace InserimentoPersonale
         {
             CodiceFiscale = codice;
             Nome = nome;
-            Cognome = cognome; 
+            Cognome = cognome;
 
         }
 
